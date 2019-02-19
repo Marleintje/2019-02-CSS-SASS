@@ -1,0 +1,17 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Marleintje/2019-02-CSS-SASS.git",
+  "author": "Marleintje <marleinrusch@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile-sass-natours-starter": "node-sass Natours/starter/sass/main.scss Natours/starter/css/style.css -w"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
